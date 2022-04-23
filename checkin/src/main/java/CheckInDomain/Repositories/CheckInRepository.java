@@ -1,6 +1,6 @@
-package Repositories;
+package CheckInDomain.Repositories;
 
-import modal.CheckIn;
+import CheckInDomain.modal.CheckIn;
 import org.springframework.scheduling.config.Task;
 import ShareKernel.core.Repository;
 

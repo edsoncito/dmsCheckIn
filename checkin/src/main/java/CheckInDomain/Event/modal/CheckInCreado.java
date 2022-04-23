@@ -1,6 +1,6 @@
-package Event;
+package CheckInDomain.Event.modal;
 
-import modal.valueObject.CodigoSeguridad;
+import CheckInDomain.modal.valueObject.CodigoSeguridad;
 import ShareKernel.core.DomainEvent;
 import java.time.LocalDateTime;
 import java.util.UUID;

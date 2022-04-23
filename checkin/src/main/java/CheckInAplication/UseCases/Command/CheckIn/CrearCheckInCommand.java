@@ -1,6 +1,6 @@
 package CheckInAplication.UseCases.Command.CheckIn;
 
-import modal.CheckIn;
+import CheckInDomain.modal.CheckIn;
 import ShareKernel.mediator.Request;
 import java.util.UUID;
 

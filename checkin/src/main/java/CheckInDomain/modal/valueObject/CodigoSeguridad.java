@@ -1,4 +1,4 @@
-package modal.valueObject;
+package CheckInDomain.modal.valueObject;
 
 import ShareKernel.rule.StringNotNullOrEmptyRule;
 import ShareKernel.core.BussinessRuleValidateExeption;

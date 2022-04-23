@@ -1,8 +1,8 @@
-package modal;
+package CheckInDomain.modal;
 
-import Event.CheckInCreado;
+import CheckInDomain.Event.modal.CheckInCreado;
 import lombok.Data;
-import modal.valueObject.CodigoSeguridad;
+import CheckInDomain.modal.valueObject.CodigoSeguridad;
 import ShareKernel.core.AggregateRoot;
 import java.util.Date;
 import java.util.UUID;
