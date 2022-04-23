@@ -1,4 +1,4 @@
-package util;
+package ShareKernel.core;
 
 public abstract class  ValueObject {
 

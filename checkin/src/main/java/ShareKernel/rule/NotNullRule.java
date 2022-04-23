@@ -1,6 +1,6 @@
-package rule;
+package ShareKernel.rule;
 
-import util.BussinessRule;
+import ShareKernel.core.BussinessRule;
 
 public class NotNullRule implements BussinessRule {
 

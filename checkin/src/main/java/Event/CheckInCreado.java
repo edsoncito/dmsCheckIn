@@ -1,7 +1,7 @@
 package Event;
 
 import modal.valueObject.CodigoSeguridad;
-import util.DomainEvent;
+import ShareKernel.core.DomainEvent;
 import java.time.LocalDateTime;
 import java.util.UUID;
 

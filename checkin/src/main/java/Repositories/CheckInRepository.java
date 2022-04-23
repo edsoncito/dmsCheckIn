@@ -2,7 +2,7 @@ package Repositories;
 
 import modal.CheckIn;
 import org.springframework.scheduling.config.Task;
-import util.Repository;
+import ShareKernel.core.Repository;
 
 import java.util.UUID;
 

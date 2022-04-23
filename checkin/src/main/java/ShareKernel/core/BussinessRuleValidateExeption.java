@@ -1,4 +1,4 @@
-package util;
+package ShareKernel.core;
 
 public class BussinessRuleValidateExeption extends Exception {
 

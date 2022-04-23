@@ -1,8 +1,8 @@
 package modal.valueObject;
 
-import rule.StringNotNullOrEmptyRule;
-import util.BussinessRuleValidateExeption;
-import util.ValueObject;
+import ShareKernel.rule.StringNotNullOrEmptyRule;
+import ShareKernel.core.BussinessRuleValidateExeption;
+import ShareKernel.core.ValueObject;
 
 public class CodigoSeguridad extends ValueObject {
 

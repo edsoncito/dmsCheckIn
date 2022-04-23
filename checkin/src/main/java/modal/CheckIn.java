@@ -3,7 +3,7 @@ package modal;
 import Event.CheckInCreado;
 import lombok.Data;
 import modal.valueObject.CodigoSeguridad;
-import util.AggregateRoot;
+import ShareKernel.core.AggregateRoot;
 import java.util.Date;
 import java.util.UUID;
 
