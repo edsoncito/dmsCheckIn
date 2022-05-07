@@ -16,14 +16,6 @@ public class CheckInDto {
     private int Asiento;
     private List<EquipajeDto> EquipajeDto;
 
-    private String Vuelo;
-    private String Abordaje;
-    private String Desde;
-    private String Hasta;
-    private Date Despeje;
-    private Date Aterrisaje;
-    private String Puerta;
-
     public CheckInDto() {
     }
 
@@ -89,62 +81,6 @@ public class CheckInDto {
 
     public void setAsiento(int Asiento) {
         this.Asiento = Asiento;
-    }
-
-    public String getVuelo() {
-        return this.Vuelo;
-    }
-
-    public void setVuelo(String Vuelo) {
-        this.Vuelo = Vuelo;
-    }
-
-    public String getAbordaje() {
-        return this.Abordaje;
-    }
-
-    public void setAbordaje(String Abordaje) {
-        this.Abordaje = Abordaje;
-    }
-
-    public String getDesde() {
-        return this.Desde;
-    }
-
-    public void setDesde(String Desde) {
-        this.Desde = Desde;
-    }
-
-    public String getHasta() {
-        return this.Hasta;
-    }
-
-    public void setHasta(String Hasta) {
-        this.Hasta = Hasta;
-    }
-
-    public Date getDespeje() {
-        return this.Despeje;
-    }
-
-    public void setDespeje(Date Despeje) {
-        this.Despeje = Despeje;
-    }
-
-    public Date getAterrisaje() {
-        return this.Aterrisaje;
-    }
-
-    public void setAterrisaje(Date Aterrisaje) {
-        this.Aterrisaje = Aterrisaje;
-    }
-
-    public String getPuerta() {
-        return this.Puerta;
-    }
-
-    public void setPuerta(String Puerta) {
-        this.Puerta = Puerta;
     }
 
 }
