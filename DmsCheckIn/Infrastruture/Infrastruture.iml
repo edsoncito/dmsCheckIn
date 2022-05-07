@@ -11,7 +11,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../proyectoFinal/CheckIn/lib/sharedKernel.jar!/" />
+          <root url="jar://$MODULE_DIR$/../lib/sharedKernel.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
