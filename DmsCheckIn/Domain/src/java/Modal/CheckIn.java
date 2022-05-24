@@ -12,10 +12,12 @@ public class CheckIn extends AggregateRoot<UUID> {
 
     private String CodigoSeguridad;
     private Date HoraCheckIn;
+    private int Asiento;
     private Boolean EstadoPaciente;
     private String Descripcion;
-    private List<Equipaje> equipaje;
-    private int Asiento;
+    private List<Baggage> equipaje;
+    private List<Seat> Seats ;
+
 
     public CheckIn() {
     }
@@ -26,7 +28,7 @@ public class CheckIn extends AggregateRoot<UUID> {
         EstadoPaciente = estadoPaciente;
         Descripcion = descripcion;
         Asiento = asiento;
-        equipaje = new ArrayList<Equipaje>();
+        equipaje = new ArrayList<Baggage>();
     }
 
     public void AgregarItem(Double PesoEquipaje, String NumeroEtiqueta, String descripcion) {
@@ -43,7 +45,7 @@ public class CheckIn extends AggregateRoot<UUID> {
 //            detallePedido.ModificarPedido(cantidad, precio);
 //        }
 
-        Equipaje equipajes = new Equipaje(PesoEquipaje, NumeroEtiqueta, descripcion);
+        Baggage equipajes = new Baggage(PesoEquipaje, NumeroEtiqueta, descripcion);
         equipaje.add(equipajes);
     }
 
@@ -52,11 +54,11 @@ public class CheckIn extends AggregateRoot<UUID> {
         addDomainEvent(event);
     }
 
-    public List<Equipaje> getEquipaje() {
+    public List<Baggage> getEquipaje() {
         return equipaje;
     }
 
-    public void setEquipaje(List<Equipaje> equipaje1) {
+    public void setEquipaje(List<Baggage> equipaje1) {
         equipaje = equipaje1;
     }
 

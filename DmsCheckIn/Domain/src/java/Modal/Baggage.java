@@ -4,16 +4,16 @@ import SharedKernel.core.Entity;
 
 import java.util.UUID;
 
-public class Equipaje extends Entity<UUID> {
+public class Baggage extends Entity<UUID> {
 
     private Double PesoEquipaje;
     private String NumeroEtiqueta;
     private String Descripcion;
 
-    public Equipaje() {
+    public Baggage() {
     }
 
-    public Equipaje(Double pesoEquipaje, String numeroEtiquta, String descripcion) {
+    public Baggage(Double pesoEquipaje, String numeroEtiquta, String descripcion) {
         key = UUID.randomUUID();
         PesoEquipaje = pesoEquipaje;
         NumeroEtiqueta = numeroEtiquta;

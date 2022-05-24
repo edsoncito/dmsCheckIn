@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/DmsCheckIn.iml" filepath="$PROJECT_DIR$/DmsCheckIn.iml" />
       <module fileurl="file://$PROJECT_DIR$/Domain/Domain.iml" filepath="$PROJECT_DIR$/Domain/Domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/Infrastruture/Infrastruture.iml" filepath="$PROJECT_DIR$/Infrastruture/Infrastruture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharedKernel/SharedKernel.iml" filepath="$PROJECT_DIR$/SharedKernel/SharedKernel.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebApi/WebApi.iml" filepath="$PROJECT_DIR$/WebApi/WebApi.iml" />
     </modules>
   </component>
