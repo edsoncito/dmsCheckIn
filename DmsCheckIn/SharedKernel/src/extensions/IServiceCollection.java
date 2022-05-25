@@ -1,7 +1,6 @@
 package extensions;
 
 import java.util.HashMap;
-
 import mediator.IMediator;
 import mediator.Mediator;
 

@@ -2,8 +2,6 @@ package Events;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
-
-import Modal.valueObject.CodigoSeguridad;
 import core.DomainEvent;
 
 public class CheckInCreado extends DomainEvent {
