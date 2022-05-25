@@ -1,4 +1,4 @@
-package SharedKernel.http.Exception;
+package http.Exception;
 
 public class HttpException extends Exception {
 

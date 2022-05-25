@@ -1,8 +1,8 @@
 package Modal.valueObject;
 
-import SharedKernel.core.BussinessRuleValidateExeption;
-import SharedKernel.core.ValueObject;
-import SharedKernel.rule.StringNotNullOrEmptyRule;
+import core.BussinessRuleValidateExeption;
+import core.ValueObject;
+import rule.StringNotNullOrEmptyRule;
 
 public class DescripcionEstado extends ValueObject {
 

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.UUID;
 
 import Events.CheckInCreado;
-import SharedKernel.core.AggregateRoot;
+import core.AggregateRoot;
 
 public class CheckIn extends AggregateRoot<UUID> {
 

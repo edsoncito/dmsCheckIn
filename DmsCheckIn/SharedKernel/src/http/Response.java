@@ -1,4 +1,6 @@
-package SharedKernel.http;
+package http;
+
+import SharedKernel.http.HttpStatus;
 
 public class Response {
 

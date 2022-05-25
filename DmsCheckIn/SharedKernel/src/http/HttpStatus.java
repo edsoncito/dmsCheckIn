@@ -1,4 +1,4 @@
-package SharedKernel.http;
+package http;
 
 public class HttpStatus {
     // CODES

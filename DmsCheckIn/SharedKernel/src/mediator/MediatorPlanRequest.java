@@ -1,11 +1,11 @@
-package SharedKernel.mediator;
+package mediator;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 
-import SharedKernel.extensions.DependencyInjection;
-import SharedKernel.http.Exception.HttpException;
+import extensions.DependencyInjection;
+import http.Exception.HttpException;
 
 public class MediatorPlanRequest<T, E> {
     Method handleMethod;

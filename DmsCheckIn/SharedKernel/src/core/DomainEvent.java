@@ -3,7 +3,7 @@ package core;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-import SharedKernel.mediator.Notification;
+import mediator.Notification;
 
 public class DomainEvent implements Notification {
 

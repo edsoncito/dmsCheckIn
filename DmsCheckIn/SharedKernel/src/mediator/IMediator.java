@@ -1,12 +1,17 @@
-package SharedKernel.mediator;
+package mediator;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import SharedKernel.http.HttpStatus;
-import SharedKernel.http.Exception.HttpException;
+import http.HttpStatus;
+import http.Exception.HttpException;
+import mediator.MediatorPlanNotify;
+import mediator.MediatorPlanRequest;
+import mediator.Response;
+import http.Exception.HttpException;
+import http.HttpStatus;
 
 public class IMediator implements Mediator {
     private static ArrayList<Class> handlerClass;

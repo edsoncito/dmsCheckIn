@@ -4,8 +4,8 @@ import java.lang.reflect.Constructor;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import SharedKernel.extensions.IServiceCollection;
-import SharedKernel.mediator.IMediator;
+import extensions.IServiceCollection;
+import mediator.IMediator;
 
 public class DependencyInjection {
 

@@ -3,7 +3,7 @@ package Repositories;
 import java.util.UUID;
 
 import Modal.CheckIn;
-import SharedKernel.core.IRepository;
+import core.IRepository;
 
 public interface IcheckInRepository extends IRepository<CheckIn, UUID> {
 

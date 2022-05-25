@@ -1,4 +1,4 @@
-package SharedKernel.http;
+package http;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,13 +6,10 @@ import java.io.OutputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.net.InetSocketAddress;
 import java.util.HashMap;
-
-import org.jboss.com.sun.net.httpserver.HttpServer;
-
-import SharedKernel.http.Exception.HttpException;
-
-import org.jboss.com.sun.net.httpserver.HttpContext;
-import org.jboss.com.sun.net.httpserver.HttpExchange;
+import com.sun.net.httpserver.HttpContext;
+import com.sun.net.httpserver.HttpExchange;
+import com.sun.net.httpserver.HttpServer;
+import http.Exception.HttpException;
 
 public abstract class Rest {
 

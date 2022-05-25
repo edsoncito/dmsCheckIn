@@ -1,4 +1,4 @@
-package SharedKernel;
+package utils;
 
 import java.lang.reflect.Type;
 import java.time.Instant;
@@ -19,13 +19,13 @@ import com.google.gson.JsonPrimitive;
 import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
 
-import Domain.Model.Aeronaves.Aeronave;
+//import Domain.Model.Aeronaves.Aeronave;
 
 public class JSON {
     static String formatDate = "yyyy-MM-dd";
     static String formatDateTime = "yyyy-MM-dd'T'HH:mm:ss.SSS";
 
-    static class LocalDateSerializer implements JsonSerializer<LocalDate> {
+    public static class LocalDateSerializer implements JsonSerializer<LocalDate> {
         private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern(formatDate);
 
         @Override
@@ -34,7 +34,7 @@ public class JSON {
         }
     }
 
-    static class LocalDateTimeSerializer implements JsonSerializer<LocalDateTime> {
+    public static class LocalDateTimeSerializer implements JsonSerializer<LocalDateTime> {
         private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern(formatDateTime);
 
         @Override
@@ -43,7 +43,7 @@ public class JSON {
         }
     }
 
-    static class LocalDateDeserializer implements JsonDeserializer<LocalDate> {
+    public static class LocalDateDeserializer implements JsonDeserializer<LocalDate> {
         @Override
         public LocalDate deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context)
                 throws JsonParseException {
@@ -52,7 +52,7 @@ public class JSON {
         }
     }
 
-    static class LocalDateTimeDeserializer implements JsonDeserializer<LocalDateTime> {
+    public static class LocalDateTimeDeserializer implements JsonDeserializer<LocalDateTime> {
         @Override
         public LocalDateTime deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context)
                 throws JsonParseException {

@@ -1,7 +1,7 @@
 package UseCases.Queries;
 
 import Modal.CheckIn;
-import SharedKernel.mediator.Request;
+import mediator.Request;
 
 public class GetCheckInAllQuery implements Request<CheckIn> {
 

@@ -1,4 +1,4 @@
-package SharedKernel.mediator;
+package mediator;
 
 public interface Notification {
     

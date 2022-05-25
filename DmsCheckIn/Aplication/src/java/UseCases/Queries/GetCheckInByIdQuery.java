@@ -2,7 +2,7 @@ package UseCases.Queries;
 
 import java.util.UUID;
 import Dto.CheckInDto;
-import SharedKernel.mediator.Request;
+import mediator.Request;
 
 public class GetCheckInByIdQuery implements Request<CheckInDto> {
 

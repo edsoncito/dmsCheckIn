@@ -1,4 +1,4 @@
-package SharedKernel.http;
+package http;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
@@ -6,15 +6,18 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 
-import org.jboss.com.sun.net.httpserver.HttpExchange;
+import com.sun.net.httpserver.HttpExchange;
+import http.Action;
+import http.Exception.HttpCodeException;
+import http.Exception.HttpException;
+import http.HttpStatus;
+import http.Response;
+import http.annotation.RequestMapping;
+import http.annotation.RestController;
+import mediator.IMediator;
+import mediator.Mediator;
 
-import SharedKernel.extensions.DependencyInjection;
-import SharedKernel.http.Exception.HttpCodeException;
-import SharedKernel.http.Exception.HttpException;
-import SharedKernel.http.annotation.RequestMapping;
-import SharedKernel.http.annotation.RestController;
-import SharedKernel.mediator.IMediator;
-import SharedKernel.mediator.Mediator;
+import extensions.DependencyInjection;
 
 public class Controller {
     private String route;

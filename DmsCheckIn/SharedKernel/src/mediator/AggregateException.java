@@ -1,4 +1,4 @@
-package SharedKernel.mediator;
+package mediator;
 
 import java.util.List;
 

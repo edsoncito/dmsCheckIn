@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 import Modal.valueObject.CodigoSeguridad;
-import SharedKernel.core.DomainEvent;
+import core.DomainEvent;
 
 public class CheckInCreado extends DomainEvent {
 

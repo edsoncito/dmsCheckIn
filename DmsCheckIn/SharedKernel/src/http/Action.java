@@ -1,4 +1,4 @@
-package SharedKernel.http;
+package http;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
@@ -11,19 +11,17 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import org.jboss.com.sun.net.httpserver.HttpExchange;
-
-import SharedKernel.JSON;
-import SharedKernel.http.Exception.HttpCodeException;
-import SharedKernel.http.Exception.HttpException;
-import SharedKernel.http.annotation.DeleteMapping;
-import SharedKernel.http.annotation.GetMapping;
-import SharedKernel.http.annotation.PathVariable;
-import SharedKernel.http.annotation.PostMapping;
-import SharedKernel.http.annotation.PutMapping;
-import SharedKernel.http.annotation.RequestBody;
-import SharedKernel.mediator.Request;
+import http.annotation.GetMapping;
+import com.sun.net.httpserver.HttpExchange;
+import http.annotation.*;
+import mediator.Request;
+import utils.JSON;
+import http.Exception.HttpCodeException;
+import http.Exception.HttpException;
+import http.annotation.DeleteMapping;
+import http.annotation.PostMapping;
+import http.annotation.PutMapping;
+import http.annotation.RequestBody;
 
 public class Action {
     enum ActionType {

@@ -1,6 +1,6 @@
 package Modal;
 
-import SharedKernel.core.Entity;
+import core.Entity;
 import java.util.UUID;
 
 public class Passenger extends Entity<UUID> {

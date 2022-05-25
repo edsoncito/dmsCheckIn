@@ -3,7 +3,7 @@ import MomoryRepository.MemoryCheckInRepository;
 import MomoryRepository.MemoryDataBase;
 import Repositories.IUnitOfWork;
 import Repositories.IcheckInRepository;
-import SharedKernel.extensions.IServiceCollection;
+import extensions.IServiceCollection;
 
 public class ExtensionsInfrastructure {
 

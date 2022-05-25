@@ -3,7 +3,7 @@ package UseCases.Command.CheckIn;
 import Dto.CheckInDto;
 import Dto.EquipajeDto;
 import Modal.CheckIn;
-import SharedKernel.mediator.Request;
+import mediator.Request;
 
 import java.util.List;
 import java.util.UUID;

@@ -1,7 +1,6 @@
-package SharedKernel.mediator;
+package mediator;
 
-
-import SharedKernel.JSON;
+import utils.JSON;
 
 public class Response<T> {
     public T data;

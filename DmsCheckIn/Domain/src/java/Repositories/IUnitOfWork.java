@@ -1,5 +1,7 @@
 package Repositories;
 
+import http.Exception.HttpException;
+
 public interface IUnitOfWork {
-    public void commit();
+    public void commit() throws HttpException;
 }

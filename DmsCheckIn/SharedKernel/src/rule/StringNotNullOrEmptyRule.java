@@ -1,4 +1,4 @@
-package SharedKernel.rule;
+package rule;
 
 import SharedKernel.core.BussinessRule;
 

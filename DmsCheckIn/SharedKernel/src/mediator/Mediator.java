@@ -1,8 +1,10 @@
-package SharedKernel.mediator;
+package mediator;
 
 import java.lang.reflect.InvocationTargetException;
 
-import SharedKernel.http.Exception.HttpException;
+import mediator.Request;
+import mediator.Response;
+import http.Exception.HttpException;
 
 public interface Mediator {
 

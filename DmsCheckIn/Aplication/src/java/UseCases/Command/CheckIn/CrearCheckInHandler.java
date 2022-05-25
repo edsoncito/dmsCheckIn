@@ -7,10 +7,10 @@ import Repositories.IcheckInRepository;
 import Services.CheckInServices;
 import Services.IcheckInService;
 import factories.ICheckInFactory;
-import SharedKernel.mediator.RequestHandler;
+import http.Exception.HttpException;
+import mediator.RequestHandler;
 
 public class CrearCheckInHandler implements RequestHandler<CrearCheckInCommand , CheckIn> {
-
 
     private IcheckInRepository CheckInRepository;
     private ICheckInFactory CheckInFactory;
@@ -25,7 +25,7 @@ public class CrearCheckInHandler implements RequestHandler<CrearCheckInCommand ,
     }
 
     @Override
-    public CheckIn handle(CrearCheckInCommand request) {
+    public CheckIn handle(CrearCheckInCommand request) throws HttpException {
 
         String nroCheckIn = inService.GenerarNroPedidoAsync();
         CheckIn objCheckIn = CheckInFactory.Create(nroCheckIn, request.checkInDto.getEstadoPaciente(), request.checkInDto.getDescripcion() ,request.checkInDto.getAsiento());

@@ -8,15 +8,9 @@
     <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Domain" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../lib/sharedKernel.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="module" module-name="Aplication" />
+    <orderEntry type="module" module-name="SharedKernel" />
+    <orderEntry type="library" name="mongo-java-driver-3.12.3" level="project" />
+    <orderEntry type="library" name="gson-2.1" level="project" />
   </component>
 </module>

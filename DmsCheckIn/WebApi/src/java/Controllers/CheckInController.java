@@ -1,18 +1,14 @@
 package Controllers;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
-
 import Dto.CheckInDto;
 import Modal.CheckIn;
+import http.annotation.GetMapping;
 import UseCases.Command.CheckIn.CrearCheckInCommand;
-import UseCases.Queries.GetCheckInAllQuery;
 import UseCases.Queries.GetCheckInByIdQuery;
-import SharedKernel.http.Exception.HttpException;
-import SharedKernel.http.annotation.*;
-import SharedKernel.mediator.Mediator;
-import SharedKernel.mediator.Response;
+import http.Exception.HttpException;
+import http.annotation.*;
+import mediator.Mediator;
+import mediator.Response;
 
 @RestController
 @RequestMapping("/checkin")
@@ -36,7 +32,7 @@ public class CheckInController {
 
 
     @PostMapping("/registro")
-    public Response<CheckIn> register(@RequestBody CrearCheckInCommand checkInCommand) {
+    public Response<CheckIn> register(@RequestBody CrearCheckInCommand checkInCommand) throws HttpException {
         Response<CheckIn> obj = _mediator.send(checkInCommand);
         return obj;
     }

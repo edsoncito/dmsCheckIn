@@ -2,8 +2,8 @@ package extensions;
 
 import java.util.HashMap;
 
-import SharedKernel.mediator.IMediator;
-import SharedKernel.mediator.Mediator;
+import mediator.IMediator;
+import mediator.Mediator;
 
 public class IServiceCollection {
     private static HashMap<Class, Class> TrasientMap;
