@@ -16,7 +16,7 @@ public class CheckIn extends AggregateRoot<UUID> {
     private Boolean EstadoPaciente;
     private String Descripcion;
     private List<Baggage> equipaje;
-    private List<Seat> Seats ;
+    //private List<Seat> Seats ;
 
 
     public CheckIn() {

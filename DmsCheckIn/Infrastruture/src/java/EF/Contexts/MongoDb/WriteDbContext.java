@@ -22,7 +22,6 @@ public class WriteDbContext extends IWriteDbContext {
 
     private MongoClient client;
     private MongoDatabase db;
-
     private final String DB_NAME = "dmsnur_checkIn";
     private final String DB_USER = "root";
     private final String DB_PASS = "rootpassword";

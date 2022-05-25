@@ -3,6 +3,7 @@ package MomoryRepository;
 import Modal.CheckIn;
 import Repositories.IcheckInRepository;
 
+import java.util.List;
 import java.util.UUID;
 
 public class MemoryCheckInRepository implements IcheckInRepository {
@@ -24,4 +25,18 @@ public class MemoryCheckInRepository implements IcheckInRepository {
         _database.getCheckIns().add(checkIn);
     }
 
+    @Override
+    public List<CheckIn> GetAll() {
+        return null;
+    }
+
+    @Override
+    public CheckIn Delete(CheckIn checkIn) {
+        return null;
+    }
+
+    @Override
+    public CheckIn Update(CheckIn checkIn) {
+        return null;
+    }
 }
