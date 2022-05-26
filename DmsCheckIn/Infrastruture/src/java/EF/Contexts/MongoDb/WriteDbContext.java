@@ -2,19 +2,14 @@ package EF.Contexts.MongoDb;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ExecutionException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 import EF.Contexts.IWriteDbContext;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
-import com.mongodb.client.model.Updates;
 import org.bson.Document;
-import com.google.gson.Gson;
-
 import db.DbSet;
 import utils.JSON;
 

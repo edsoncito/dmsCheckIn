@@ -1,10 +1,9 @@
-import Repositories.IcheckInRepository;
 import UseCases.Command.CheckIn.CrearCheckInHandler;
 import UseCases.Queries.GetCheckInByIdHandler;
 import factories.CheckInFactory;
 import factories.ICheckInFactory;
-import SharedKernel.extensions.IServiceCollection;
-import SharedKernel.mediator.IMediator;
+import extensions.IServiceCollection;
+import mediator.IMediator;
 
 public class Extensions {
 

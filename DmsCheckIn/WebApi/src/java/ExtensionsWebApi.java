@@ -1,5 +1,5 @@
 import Controllers.CheckInController;
-import SharedKernel.http.Rest;
+import http.Rest;
 
 public class ExtensionsWebApi {
 

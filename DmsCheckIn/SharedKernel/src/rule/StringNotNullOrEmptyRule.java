@@ -1,6 +1,6 @@
 package rule;
 
-import SharedKernel.core.BussinessRule;
+import core.BussinessRule;
 
 public class StringNotNullOrEmptyRule implements BussinessRule {
 

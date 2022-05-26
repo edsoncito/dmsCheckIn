@@ -30,12 +30,12 @@ public class CheckInController {
         return _mediator.send(request);
     }
 
-
     @PostMapping("/registro")
     public Response<CheckIn> register(@RequestBody CrearCheckInCommand checkInCommand) throws HttpException {
         Response<CheckIn> obj = _mediator.send(checkInCommand);
         return obj;
     }
+    
 
     // @PutMapping("/{key}")
     // public Aeronave edit(@RequestBody Aeronave aeronave, @PathVariable String key) {

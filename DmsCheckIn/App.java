@@ -1,7 +1,7 @@
 public class App {
 
     public static void main(String[] args) throws Exception{
-        SharedKernel.Extensions.AddKernel();
+        utils.Extensions.AddKernel();
         ExtensionsInfrastructure.AddInfraestructure();
         ExtensionsWebApi.AddControllers();
     }
