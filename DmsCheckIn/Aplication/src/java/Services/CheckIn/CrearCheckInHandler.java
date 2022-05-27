@@ -11,7 +11,7 @@ import mediator.RequestHandler;
 public class CrearCheckInHandler implements RequestHandler<CrearCheckInCommand , CheckIn> {
 
     private IcheckInRepository CheckInRepository;
-    private ICheckInFactory CheckInFactory;s
+    private ICheckInFactory CheckInFactory;
     private CheckInServices inService;
     private IUnitOfWork _unitOfWork;
 
