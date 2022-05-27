@@ -1,11 +1,9 @@
-package UseCases.Command.CheckIn;
+package Services.CheckIn;
 
-import java.util.UUID;
 import Modal.CheckIn;
 import Repositories.IUnitOfWork;
 import Repositories.IcheckInRepository;
 import Services.CheckInServices;
-import Services.IcheckInService;
 import factories.ICheckInFactory;
 import http.Exception.HttpException;
 import mediator.RequestHandler;
@@ -13,7 +11,7 @@ import mediator.RequestHandler;
 public class CrearCheckInHandler implements RequestHandler<CrearCheckInCommand , CheckIn> {
 
     private IcheckInRepository CheckInRepository;
-    private ICheckInFactory CheckInFactory;
+    private ICheckInFactory CheckInFactory;s
     private CheckInServices inService;
     private IUnitOfWork _unitOfWork;
 

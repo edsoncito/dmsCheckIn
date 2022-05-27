@@ -1,28 +1,27 @@
-package UseCases.Command.CheckIn;
+package Services.CheckIn;
 
 import Dto.CheckInDto;
-import Dto.EquipajeDto;
+import Dto.BaggageDto;
 import Modal.CheckIn;
 import mediator.Request;
 
 import java.util.List;
-import java.util.UUID;
 
 public class CrearCheckInCommand implements Request<CheckIn> {
 
     public CheckInDto checkInDto;
-    public List<EquipajeDto> Equipaje;
+    public List<BaggageDto> Equipaje;
 
     public CrearCheckInCommand(CheckInDto obj) {
         checkInDto = obj;
         Equipaje = obj.getEquipajeDto();
     }
 
-    public List<EquipajeDto> getDetalle() {
+    public List<BaggageDto> getDetalle() {
         return Equipaje;
     }
 
-    public void setDetalle(List<EquipajeDto> detalle) {
+    public void setDetalle(List<BaggageDto> detalle) {
         Equipaje = detalle;
     }
 

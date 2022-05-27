@@ -1,7 +1,7 @@
 package UseCases.Queries;
 
 import Dto.CheckInDto;
-import Dto.EquipajeDto;
+import Dto.BaggageDto;
 import Modal.CheckIn;
 import Repositories.IcheckInRepository;
 import mediator.RequestHandler;
@@ -28,9 +28,9 @@ public class GetCheckInByIdHandler implements RequestHandler<GetCheckInByIdQuery
         checkInDto.setEstadoPaciente(checkIn.getEstadoPaciente());
         checkInDto.setDescripcion(checkIn.getDescripcion());
         checkInDto.setAsiento(checkIn.getAsiento());
-        List<EquipajeDto> lista = new ArrayList<>();
+        List<BaggageDto> lista = new ArrayList<>();
         for (var item : checkIn.getEquipaje()) {
-            EquipajeDto equipajeDto = new EquipajeDto();
+            BaggageDto equipajeDto = new BaggageDto();
             equipajeDto.setPesoEquipaje(item.getPesoEquipaje());
             equipajeDto.setNumeroEtiquta(item.getNumeroEtiquta());
             equipajeDto.setDescripcion(item.getDescripcion());

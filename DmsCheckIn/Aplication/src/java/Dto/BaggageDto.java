@@ -1,12 +1,12 @@
 package Dto;
 
-public class EquipajeDto {
+public class BaggageDto {
 
     private Double PesoEquipaje;
     private String NumeroEtiqueta;
     private String Descripcion;
 
-    public EquipajeDto() {
+    public BaggageDto() {
     }
 
     public Double getPesoEquipaje() {

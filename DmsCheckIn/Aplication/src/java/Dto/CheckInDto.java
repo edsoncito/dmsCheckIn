@@ -6,26 +6,26 @@ import java.util.UUID;
 
 public class CheckInDto {
     
-    private UUID Key;
-    private String CodigoSeguridad;
-    private Date HoraCheckIn;
-    private Boolean EstadoPaciente;
-    private String Descripcion;
-    private int Asiento;
-    private List<EquipajeDto> EquipajeDto;
+    public UUID Key;
+    public String CodigoSeguridad;
+    public Date HoraCheckIn;
+    public Boolean EstadoPaciente;
+    public String Descripcion;
+    public int Asiento;
+    public List<BaggageDto> EquipajeDto;
 
     public CheckInDto() {
     }
 
-    public CheckInDto(List<EquipajeDto> equipajeDto) {
+    public CheckInDto(List<BaggageDto> equipajeDto) {
         this.EquipajeDto = equipajeDto;
     }
 
-    public List<EquipajeDto> getEquipajeDto() {
+    public List<BaggageDto> getEquipajeDto() {
         return EquipajeDto;
     }
 
-    public void setEquipajeDto(List<EquipajeDto> equipajeDto) {
+    public void setEquipajeDto(List<BaggageDto> equipajeDto) {
         EquipajeDto = equipajeDto;
     }
 

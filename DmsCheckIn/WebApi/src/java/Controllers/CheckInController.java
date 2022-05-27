@@ -3,7 +3,7 @@ package Controllers;
 import Dto.CheckInDto;
 import Modal.CheckIn;
 import http.annotation.GetMapping;
-import UseCases.Command.CheckIn.CrearCheckInCommand;
+import Services.CheckIn.CrearCheckInCommand;
 import UseCases.Queries.GetCheckInByIdQuery;
 import http.Exception.HttpException;
 import http.annotation.*;
@@ -35,7 +35,6 @@ public class CheckInController {
         Response<CheckIn> obj = _mediator.send(checkInCommand);
         return obj;
     }
-    
 
     // @PutMapping("/{key}")
     // public Aeronave edit(@RequestBody Aeronave aeronave, @PathVariable String key) {
