@@ -22,6 +22,6 @@ public class MemoryDataBase {
     }
 
     public MemoryDataBase() {
-        checkIns = new ArrayList<>();
+        checkIns = new ArrayList<CheckIn>();
     }
 }
