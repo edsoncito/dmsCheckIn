@@ -2,9 +2,9 @@ package Dto;
 
 public class BaggageDto {
 
-    private Double PesoEquipaje;
-    private String NumeroEtiqueta;
-    private String Descripcion;
+    public Double PesoEquipaje;
+    public String NumeroEtiqueta;
+    public String Descripcion;
 
     public BaggageDto() {
     }
@@ -17,11 +17,11 @@ public class BaggageDto {
         PesoEquipaje = pesoEquipaje;
     }
 
-    public String getNumeroEtiquta() {
+    public String getNumeroEtiqueta() {
         return NumeroEtiqueta;
     }
 
-    public void setNumeroEtiquta(String numeroEtiquta) {
+    public void setNumeroEtiqueta(String numeroEtiquta) {
         NumeroEtiqueta = numeroEtiquta;
     }
 

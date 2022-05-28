@@ -8,9 +8,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Aplication" />
-    <orderEntry type="module" module-name="WebApi" />
     <orderEntry type="module" module-name="Domain" />
     <orderEntry type="module" module-name="Infrastruture" />
     <orderEntry type="module" module-name="SharedKernel" />
+    <orderEntry type="module" module-name="WebApi" />
   </component>
 </module>

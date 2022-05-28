@@ -10,12 +10,12 @@ import core.AggregateRoot;
 
 public class CheckIn extends AggregateRoot<UUID> {
 
-    private String CodigoSeguridad;
-    private Date HoraCheckIn;
-    private int Asiento;
-    private Boolean EstadoPaciente;
-    private String Descripcion;
-    private List<Baggage> equipaje;
+    public String CodigoSeguridad;
+    public Date HoraCheckIn;
+    public int Asiento;
+    public Boolean EstadoPaciente;
+    public String Descripcion;
+    public List<Baggage> equipaje;
     //private List<Seat> Seats ;
 
 

@@ -1,4 +1,4 @@
-package Services.CheckIn;
+package UseCases.Command.CheckIn;
 
 import Dto.CheckInDto;
 import Dto.BaggageDto;

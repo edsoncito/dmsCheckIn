@@ -1,5 +1,6 @@
 package EF;
 
+import EF.Contexts.IWriteDbContext;
 import EF.Contexts.MongoDb.WriteDbContext;
 import Repositories.IUnitOfWork;
 import core.DomainEvent;
@@ -10,10 +11,10 @@ import java.util.List;
 
 public class UnitOfWork implements IUnitOfWork {
 
-    private WriteDbContext _context;
+    private IWriteDbContext _context;
     private Mediator _mediator;
 
-    public UnitOfWork(WriteDbContext context, Mediator mediator) {
+    public UnitOfWork(IWriteDbContext context, Mediator mediator) {
         _context = context;
         _mediator = mediator;
     }

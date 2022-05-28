@@ -1,4 +1,4 @@
-package Services.CheckIn;
+package UseCases.Command.CheckIn;
 
 import Modal.CheckIn;
 import Repositories.IUnitOfWork;
@@ -8,7 +8,7 @@ import factories.ICheckInFactory;
 import http.Exception.HttpException;
 import mediator.RequestHandler;
 
-public class CrearCheckInHandler implements RequestHandler<CrearCheckInCommand , CheckIn> {
+public class CrearCheckInHandler implements RequestHandler<CrearCheckInCommand, CheckIn> {
 
     private IcheckInRepository CheckInRepository;
     private ICheckInFactory CheckInFactory;
@@ -29,7 +29,7 @@ public class CrearCheckInHandler implements RequestHandler<CrearCheckInCommand ,
         CheckIn objCheckIn = CheckInFactory.Create(nroCheckIn, request.checkInDto.getEstadoPaciente(), request.checkInDto.getDescripcion() ,request.checkInDto.getAsiento());
 
         for (var item: request.Equipaje) {
-            objCheckIn.AgregarItem(item.getPesoEquipaje(), item.getNumeroEtiquta(), item.getDescripcion());
+            objCheckIn.AgregarItem(item.getPesoEquipaje(), item.getNumeroEtiqueta(), item.getDescripcion());
         }
         objCheckIn.checkInCompletado();
         CheckInRepository.Create(objCheckIn);

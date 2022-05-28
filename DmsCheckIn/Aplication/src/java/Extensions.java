@@ -1,4 +1,4 @@
-import Services.CheckIn.CrearCheckInHandler;
+import UseCases.Command.CheckIn.CrearCheckInHandler;
 import UseCases.Queries.GetCheckInByIdHandler;
 import factories.CheckInFactory;
 import factories.ICheckInFactory;

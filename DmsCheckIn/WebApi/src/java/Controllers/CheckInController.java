@@ -3,7 +3,7 @@ package Controllers;
 import Dto.CheckInDto;
 import Modal.CheckIn;
 import http.annotation.GetMapping;
-import Services.CheckIn.CrearCheckInCommand;
+import UseCases.Command.CheckIn.CrearCheckInCommand;
 import UseCases.Queries.GetCheckInByIdQuery;
 import http.Exception.HttpException;
 import http.annotation.*;

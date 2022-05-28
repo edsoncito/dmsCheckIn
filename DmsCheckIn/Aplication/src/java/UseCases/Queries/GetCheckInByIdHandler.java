@@ -32,7 +32,7 @@ public class GetCheckInByIdHandler implements RequestHandler<GetCheckInByIdQuery
         for (var item : checkIn.getEquipaje()) {
             BaggageDto equipajeDto = new BaggageDto();
             equipajeDto.setPesoEquipaje(item.getPesoEquipaje());
-            equipajeDto.setNumeroEtiquta(item.getNumeroEtiquta());
+            equipajeDto.setNumeroEtiqueta(item.getNumeroEtiquta());
             equipajeDto.setDescripcion(item.getDescripcion());
             lista.add(equipajeDto);
         }

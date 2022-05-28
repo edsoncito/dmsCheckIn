@@ -53,7 +53,7 @@ public class CheckInDto_Test {
     private List<BaggageDto> getBaggage() {
         ArrayList list = new ArrayList();
         BaggageDto baggageDto = new BaggageDto();
-        baggageDto.setNumeroEtiquta("dsdfsdf");
+        baggageDto.setNumeroEtiqueta("dsdfsdf");
         baggageDto.setDescripcion("dsfdsf");
         baggageDto.setPesoEquipaje(23.3);
         list.add(baggageDto);

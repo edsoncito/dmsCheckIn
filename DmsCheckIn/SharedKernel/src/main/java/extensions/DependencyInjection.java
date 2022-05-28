@@ -2,9 +2,6 @@ package extensions;
 
 import java.lang.reflect.Constructor;
 import java.util.ArrayList;
-import java.util.HashMap;
-
-import extensions.IServiceCollection;
 import mediator.IMediator;
 
 public class DependencyInjection {
