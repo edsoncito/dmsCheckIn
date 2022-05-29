@@ -16,6 +16,8 @@ public class CheckInServices_Test {
     public static String nro2 = null;
     @DataPoint
     public static String nro3 = null;
+    @DataPoint
+    public static String nro5 = null;
 
     //@Test
     @Theory

@@ -36,13 +36,13 @@ public class CrearCheckInHandler_Test {
     int Asiento = 33;
     Boolean EstadoPaciente = true;
     String Descripcion = "haskjhfaksjf";
-    List<BaggageDto> Equipaje = new ArrayList<>();
+    List<BaggageDto> Equipaje = getBaggage();
 
     @Test
     public void HandleCorrectly() throws HttpException {
 
         CheckIn a = new CheckInFactory().Create(CodigoSeguridad, EstadoPaciente, Descripcion, Asiento);
-        when(checkInFactory.Create( CodigoSeguridad, EstadoPaciente, Descripcion, Asiento)).thenReturn(a);
+        when(checkInFactory.Create( anyString(), anyBoolean(), anyString(), anyInt())).thenReturn(a);
        // when(checkInServices.GenerarNroPedidoAsync()).thenReturn(a.CodigoSeguridad);
 
         //when(mock.process(Matchers.anyList()));
