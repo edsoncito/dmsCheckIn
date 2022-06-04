@@ -8,7 +8,13 @@
         <option value="$PROJECT_DIR$/Domain/pom.xml" />
         <option value="$PROJECT_DIR$/Infrastruture/pom.xml" />
         <option value="$PROJECT_DIR$/SharedKernel/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xlm" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/pom.xlm" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
