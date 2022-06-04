@@ -1,0 +1,14 @@
+/Users/edsonmamani/Desktop/ProyectoFinal-CheckIn/Aplication/src/main/java/UseCases/Command/CheckIn/Delete/DeleteCheckInHandler.java
+/Users/edsonmamani/Desktop/ProyectoFinal-CheckIn/Aplication/src/main/java/Services/IcheckInService.java
+/Users/edsonmamani/Desktop/ProyectoFinal-CheckIn/Aplication/src/main/java/UseCases/Command/CheckIn/Edit/EditCheckInCommand.java
+/Users/edsonmamani/Desktop/ProyectoFinal-CheckIn/Aplication/src/main/java/Dto/BaggageDto.java
+/Users/edsonmamani/Desktop/ProyectoFinal-CheckIn/Aplication/src/main/java/UseCases/Queries/GetAll/GetCheckInAllQuery.java
+/Users/edsonmamani/Desktop/ProyectoFinal-CheckIn/Aplication/src/main/java/UseCases/Command/CheckIn/Create/CrearCheckInHandler.java
+/Users/edsonmamani/Desktop/ProyectoFinal-CheckIn/Aplication/src/main/java/UseCases/Queries/GetById/GetCheckInByIdQuery.java
+/Users/edsonmamani/Desktop/ProyectoFinal-CheckIn/Aplication/src/main/java/UseCases/Command/CheckIn/Edit/EditCheckInHandler.java
+/Users/edsonmamani/Desktop/ProyectoFinal-CheckIn/Aplication/src/main/java/UseCases/Command/CheckIn/Delete/DeleteCheckInCommand.java
+/Users/edsonmamani/Desktop/ProyectoFinal-CheckIn/Aplication/src/main/java/UseCases/Queries/GetById/GetCheckInByIdHandler.java
+/Users/edsonmamani/Desktop/ProyectoFinal-CheckIn/Aplication/src/main/java/Services/CheckInServices.java
+/Users/edsonmamani/Desktop/ProyectoFinal-CheckIn/Aplication/src/main/java/Dto/CheckInDto.java
+/Users/edsonmamani/Desktop/ProyectoFinal-CheckIn/Aplication/src/main/java/UseCases/Command/CheckIn/Create/CrearCheckInCommand.java
+/Users/edsonmamani/Desktop/ProyectoFinal-CheckIn/Aplication/src/main/java/Extensions.java
