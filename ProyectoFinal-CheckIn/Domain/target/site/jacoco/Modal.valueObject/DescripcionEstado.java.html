@@ -8,11 +8,11 @@ public class DescripcionEstado extends ValueObject {
 
     private String Value;
 
-<span class="nc" id="L11">    public DescripcionEstado(String value) throws BussinessRuleValidateExeption {</span>
-<span class="nc bnc" id="L12" title="All 2 branches missed.">        if(Value.length() &gt; 50){</span>
-<span class="nc" id="L13">            throw new BussinessRuleValidateExeption(&quot;No debe ser mayor a 50 caracteres&quot;);</span>
+<span class="fc" id="L11">    public DescripcionEstado(String value) throws BussinessRuleValidateExeption {</span>
+<span class="fc bfc" id="L12" title="All 2 branches covered.">        if(value.length() &gt; 50){</span>
+<span class="fc" id="L13">            throw new BussinessRuleValidateExeption(&quot;No debe ser mayor a 50 caracteres&quot;);</span>
         }
-<span class="nc" id="L15">        Value = value;</span>
-<span class="nc" id="L16">    }</span>
+<span class="fc" id="L15">        Value = value;</span>
+<span class="fc" id="L16">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.4.201905082037</span></div></body></html>

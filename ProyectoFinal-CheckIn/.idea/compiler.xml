@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="FourTeam" />
         <module name="Infraestructure" />
         <module name="WebApi" />
-        <module name="Domain" />
         <module name="SharedKernel" />
+        <module name="FourTeam" />
+        <module name="Fourteam" />
+        <module name="Domain" />
         <module name="Aplication" />
       </profile>
     </annotationProcessing>
